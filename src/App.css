@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color:#08D9D6;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #252A34;
+}
+.left h2,.left p{
+  color: black;
+
+}
+.hero p,.featured p,.signup .right p{
+  color: rgb(8, 217, 214);
+}
+.col h1,.col h5{
+  color:black;
+}
+.card h5,.card p{
+  color: black;
+}

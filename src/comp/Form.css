@@ -1,0 +1,267 @@
+.contact{
+    padding: 60px 4%;
+    font-size: 62.5%;
+}
+.formHead{
+    border-bottom: 5px solid #08D9D6;
+    padding: 5px;
+    text-align: center;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.formContainer div{
+    display: flex;
+}
+
+.formContainer input{
+    border: 1px solid rgb(170, 170, 170);
+    outline: none;
+    color:white;
+    font-size: 1.2em;
+}
+.formContainer div input{
+    width: 350px;
+    margin: 0px 30px 40px 0px;
+}
+.formContainer div input:focus{
+    border: 1px solid #FF2E63;
+}
+.formContainer input[type="email"]{
+    border: 1px solid rgb(170, 170, 170);
+    outline: none;
+    width: 730px;
+    margin-left: -30px;
+    margin-bottom: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.formContainer input[type="email"]:focus{
+    border: 1px solid #FF2E63;
+}
+.formContainer .sameAsTextarea{
+    border: 1px solid rgb(170, 170, 170);
+    outline: none;
+    margin-bottom: 10px;
+    width: 730px;
+    height: auto;
+    margin-left: -30px;
+    color: white;
+    background-color: inherit;
+    border-radius: 24px 4px;
+    padding: 15px;
+    font-size: 1.8em;
+    resize: none;
+}
+.formContainer .sameAsTextarea:focus{
+    border: 1px solid #FF2E63;
+}
+
+.sendMessage{
+    padding: 10px 30px;
+    font-size: 1.4em;
+    color: white;
+    background-color: #FF2E63;
+    border: none;
+    outline: none;
+    border-radius: 24px 4px;
+}
+.sendMessage:hover{
+    background-color: #08D9D6;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+
+
+@media(min-width:1025px){
+    .contact{
+        padding: 6rem 2%;
+    }
+}
+@media(min-width:1200px){
+    .contact{
+        padding: 6rem 8%;
+    }
+}
+@media(min-width:1400px){
+    .contact{
+        padding: 6rem 2%;
+    }
+}
+
+@media(min-width:1700px){
+    .contact{
+        font-size: 70%;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .contact{
+        font-size: 55%;
+        padding: 6rem 1%;
+    }
+    .formContainer div input{
+        width: 320px;
+        margin: 0px 30px 40px 0px;
+    }
+    .formContainer input[type="email"]{
+        width: 670px;
+        margin-left: -30px;
+    }
+    .formContainer .sameAsTextarea{
+            width: 670px;
+            margin-left: -30px;
+    }   
+}
+@media(min-width:820px) and (max-width:910px){
+    .contact{
+        padding: 6em 2%;
+    }
+}
+
+@media(min-width:910px) and (max-width:1024px){
+    .contact{
+        padding: 6em 6%;
+    }
+}
+
+
+
+
+@media (min-width:240px) and (max-width:768px){
+    .contact{
+        font-size: 50%;
+    }
+    .formContainer div{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formContainer div input{
+       width: 320px;
+        margin-left: 20px;
+    }
+    .formContainer input[type="email"]{
+        width: 320px;
+        margin-left: -10px;
+    }
+    .formContainer .sameAsTextarea{
+            width: 320px;
+            margin-left: -10px;
+    }
+}
+
+
+@media(min-width:920px) and (max-width:1024px){
+    .formContainer div{
+        display: flex;
+        flex-direction: column;
+    }
+    .formContainer div{
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formContainer div input{
+       width: 320px;
+        margin-left: 20px;
+    }
+    .formContainer input[type="email"]{
+        width: 320px;
+        margin-left: -10px;
+    }
+    .formContainer .sameAsTextarea{
+            width: 320px;
+            margin-left: -10px;
+    }
+}
+
+
+
+
+@media(min-width:400px) and (max-width:500px){
+    .formContainer div input{
+        width: 370px;
+     }
+     .formContainer input[type="email"]{
+         width: 370px;
+     }
+     .formContainer .sameAsTextarea{
+             width: 370px;
+     }
+}
+@media(min-width:500px) and (max-width:600px){
+    .formContainer div input{
+        width: 400px;
+     }
+     .formContainer input[type="email"]{
+         width: 400px;
+     }
+     .formContainer .sameAsTextarea{
+             width: 400px;
+     }
+}
+@media(min-width:600px) and (max-width:768px){
+    .formContainer div input{
+        width: 500px;
+     }
+     .formContainer input[type="email"]{
+         width: 500px;
+     }
+     .formContainer .sameAsTextarea{
+             width:500px;
+     }
+}
+
+
+@media(max-width:360px){
+    .contact{
+        font-size: 40%;
+    }
+    .formContainer div{
+        display: flex;
+        flex-direction: column;
+    }
+    .formContainer div{
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formContainer div input{
+       width: 250px;
+        margin-left: 20px;
+    }
+    .formContainer input[type="email"]{
+        width: 250px;
+        margin-left: -10px;
+    }
+    .formContainer .sameAsTextarea{
+            width: 250px;
+            margin-left: -10px;
+    }
+}
+
+@media(max-width:240px){
+    .formContainer div input{
+        width: 210px;
+         margin-left: 20px;
+     }
+     .formContainer input[type="email"]{
+         width: 210px;
+         margin-left: -10px;
+     }
+     .formContainer .sameAsTextarea{
+             width: 210px;
+             margin-left: -10px;
+     }
+}

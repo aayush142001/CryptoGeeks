@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CryptoGeeks/static/css/main.e28adbd7.css",
+    "main.js": "/CryptoGeeks/static/js/main.90e76ea8.js",
+    "static/js/787.e662dee8.chunk.js": "/CryptoGeeks/static/js/787.e662dee8.chunk.js",
+    "static/media/crypto.jpg": "/CryptoGeeks/static/media/crypto.c3e124be53f8214e9a16.jpg",
+    "static/media/hero2.png": "/CryptoGeeks/static/media/hero2.04254643160428fffc7c.png",
+    "index.html": "/CryptoGeeks/index.html",
+    "main.e28adbd7.css.map": "/CryptoGeeks/static/css/main.e28adbd7.css.map",
+    "main.90e76ea8.js.map": "/CryptoGeeks/static/js/main.90e76ea8.js.map",
+    "787.e662dee8.chunk.js.map": "/CryptoGeeks/static/js/787.e662dee8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28adbd7.css",
+    "static/js/main.90e76ea8.js"
+  ]
+}
